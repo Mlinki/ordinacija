@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ana Knežević-Golubić — Privatna pedijatrijska ordinacija, Daruvar</title>
+  <meta name="description" content="Privatna pedijatrijska ordinacija dr. Ane Knežević-Golubić u Daruvaru. Sistematski pregledi, cijepljenje, savjetovanje za roditelje i hitni pregledi.">
+  <link rel="icon" href="logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Karla:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="nav-row">
+    <a href="#pocetna" class="brand">
+      <img src="logo.png" alt="Logotip ordinacije Ane Knežević-Golubić">
+      <span class="brand-text"><strong>Ana Knežević-Golubić</strong><span>Pedijatrijska ordinacija</span></span>
+    </a>
+    <nav id="primaryNav">
+      <ul>
+        <li><a href="#pocetna">Početna</a></li>
+        <li><a href="#o-meni">O ordinaciji</a></li>
+        <li><a href="#usluge">Usluge</a></li>
+        <li><a href="#kontakt">Kontakt</a></li>
+      </ul>
+    </nav>
+    <div class="nav-actions">
+      <a class="nav-call" href="tel:+38598633812" id="navPhone">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="18" height="18"><path d="M5 4h3l2 5-2.5 1.5a11 11 0 0 0 5 5L14 13l5 2v3a2 2 0 0 1-2 2C9.5 20 4 14.5 4 7a2 2 0 0 1 1-3Z"/></svg>
+        <span class="label">098 633 812</span>
+      </a>
+      <a href="#narudzba" class="btn btn-primary">Naruči pregled</a>
+      <button class="burger" id="burgerBtn" aria-label="Otvori izbornik" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+  <nav id="mobileNav" style="display:none;border-top:1px solid var(--line);">
+    <ul style="list-style:none;display:flex;flex-direction:column;gap:0;margin:0;padding:10px 28px 18px;">
+      <li style="padding:10px 0;"><a href="#pocetna">Početna</a></li>
+      <li style="padding:10px 0;"><a href="#o-meni">O ordinaciji</a></li>
+      <li style="padding:10px 0;"><a href="#usluge">Usluge</a></li>
+      <li style="padding:10px 0;"><a href="#kontakt">Kontakt</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="hero" id="pocetna">
+  <div class="hero-side-deco" aria-hidden="true">
+    <svg class="side-ico s1" viewBox="0 0 24 24" width="40" height="40" fill="none" stroke="var(--lavender)" stroke-width="1.6"><circle cx="12" cy="14.5" r="4.2"/><path d="M8.3 12.8a3.7 3.7 0 0 1 7.4 0"/><circle cx="12" cy="6.3" r="2.1"/></svg>
+    <svg class="side-ico s2" viewBox="0 0 24 24" width="34" height="34" fill="none" stroke="var(--teal)" stroke-width="1.6"><path d="M9 3h6l1 4H8l1-4Z"/><path d="M8 7h8l-.6 12.2A2 2 0 0 1 13.4 21h-2.8a2 2 0 0 1-2-1.8L8 7Z"/><path d="M8.6 11.5h6.8"/></svg>
+    <svg class="side-ico s3" viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="var(--pink)" stroke-width="1.6"><path d="M21 3 3 10.3l6.8 2.4L11.8 20 21 3Z"/><path d="M9.8 12.7 21 3"/></svg>
+    <svg class="side-ico s4" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#F2C879" stroke-width="1.6"><path d="M12 2l1.8 5.8L19 9l-5.2 1.2L12 16l-1.8-5.8L5 9l5.2-1.2L12 2Z"/></svg>
+    <svg class="side-ico s5" viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="var(--lavender)" stroke-width="1.5"><path d="M2 19a10 10 0 0 1 20 0"/><path d="M5.5 19a6.5 6.5 0 0 1 13 0"/><path d="M9 19a3 3 0 0 1 6 0"/></svg>
+    <svg class="side-ico s6" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="var(--pink)" stroke-width="1.6"><circle cx="12" cy="12" r="2"/></svg>
+  </div>
+  <div class="container hero-grid">
+    <div>
+      <div class="eyebrow reveal">Privatna pedijatrijska ordinacija · Daruvar</div>
+      <h1 class="reveal">Briga za vaše najmanje, <em>od prvog dana.</em></h1>
+      <p class="hero-lede reveal">Ordinacija dr. Ane Knežević-Golubić u Daruvaru pruža sistematske preglede, cijepljenje i savjetovanje za roditelje — u mirnom okruženju, s vremenom posvećenim svakom djetetu.</p>
+      <div class="hero-ctas reveal">
+        <a href="#narudzba" class="btn btn-primary">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="18" height="18"><path d="M8 2v4M16 2v4M3.5 9h17M5 5h14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2Z"/></svg>
+          Naruči pregled
+        </a>
+        <a href="#usluge" class="btn btn-ghost">Pogledaj usluge</a>
+      </div>
+      <div class="quick-links reveal">
+        <a href="#usluge">Sistematski pregledi</a>
+        <a href="#usluge">Cijepljenje</a>
+        <a href="#usluge">Savjetovanje</a>
+        <a href="#usluge">Hitni pregledi</a>
+      </div>
+      <div class="info-chips reveal">
+        <span class="chip">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s-7-5.3-7-11a7 7 0 0 1 14 0c0 5.7-7 11-7 11Z"/><circle cx="12" cy="10" r="2.4"/></svg>
+          Ive Vojnovića 14, Daruvar
+        </span>
+        <span class="chip">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.2 1.8"/></svg>
+          Pon–Pet, 8:00–16:00
+        </span>
+        <span class="chip">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 4h3l2 5-2.5 1.5a11 11 0 0 0 5 5L14 13l5 2v3a2 2 0 0 1-2 2C9.5 20 4 14.5 4 7a2 2 0 0 1 1-3Z"/></svg>
+          098 633 812
+        </span>
+      </div>
+    </div>
+    <div class="hero-visual reveal">
+      <div class="visual-stage">
+        <div class="ring">
+          <img src="logo-icon.png" alt="Ilustracija pedijatrijske ordinacije — slovo A s medvjedićem, balonom, oblakom i zvijezdom">
+          <svg class="floaty f1" viewBox="0 0 24 24" width="30" height="30" fill="var(--lavender)"><path d="M12 2l1.8 5.8L19 9l-5.2 1.2L12 16l-1.8-5.8L5 9l5.2-1.2L12 2Z"/></svg>
+          <svg class="floaty f2" viewBox="0 0 24 24" width="26" height="26" fill="var(--pink)"><path d="M12 21s-7-4.7-9.4-9.2C1.2 8.6 3 5.5 6.3 5.2c1.9-.2 3.4.8 4 2.1.7-1.3 2.2-2.3 4.1-2.1 3.3.3 5.1 3.4 3.7 6.6C19 16.3 12 21 12 21Z"/></svg>
+          <svg class="floaty f3" viewBox="0 0 24 24" width="20" height="20" fill="#F2C879"><path d="M12 2l1.8 5.8L19 9l-5.2 1.2L12 16l-1.8-5.8L5 9l5.2-1.2L12 2Z"/></svg>
+        </div>
+        <div class="float-card card-quote">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 21s-7-4.7-9.4-9.2C1.2 8.6 3 5.5 6.3 5.2c1.9-.2 3.4.8 4 2.1.7-1.3 2.2-2.3 4.1-2.1 3.3.3 5.1 3.4 3.7 6.6C19 16.3 12 21 12 21Z"/></svg>
+          <p>„Vrijeme i pažnja za svako dijete.“</p>
+        </div>
+        <div class="float-card card-badge">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M8 2v4M16 2v4M3.5 9h17M5 5h14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2Z"/></svg>
+          <div>
+            <strong>Online narudžba</strong>
+            <span>Termin u par klikova</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="pad alt" id="o-meni">
+  <div class="container about-grid">
+    <div class="about-frame reveal">
+      <div class="plate">
+        <img src="logo.png" alt="Logotip ordinacije">
+        <h3>dr. Ana Knežević-Golubić</h3>
+        <p>spec. pedijatrije</p>
+      </div>
+    </div>
+    <div class="about-text">
+      <div class="eyebrow reveal">O ordinaciji</div>
+      <h2 class="reveal">Pedijatrija koja prati svako dijete na njegovom putu odrastanja</h2>
+      <p class="reveal">Ordinacija dr. Ane Knežević-Golubić nalazi se u Daruvaru, na adresi Ive Vojnovića 14. Posvećena je zdravlju djece od prvih dana života do adolescencije, uz pristup koji spaja stručnost s pažnjom za svaku obitelj.</p>
+      <p class="reveal">Svaki pregled vodi se mirno i bez žurbe — uz dovoljno vremena za pitanja roditelja i prilagodbu djetetu, kako bi posjet liječniku bio iskustvo bez straha.</p>
+      <p class="reveal">Cilj ordinacije je dugoročno partnerstvo s roditeljima: redovito praćenje rasta i razvoja, pravovremeno cijepljenje i podrška u svakodnevnim pitanjima odgoja i njege djeteta.</p>
+      <div class="signature-line reveal">„Svako dijete zaslužuje vrijeme, pažnju i povjerenje.“</div>
+    </div>
+  </div>
+</section>
+
+<section class="pad" id="usluge">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="eyebrow">Usluge</div>
+      <h2>Sve što je djetetu potrebno, na jednom mjestu</h2>
+      <p>Od redovitih pregleda do hitne pomoći — ordinacija prati dijete kroz sve faze odrastanja.</p>
+    </div>
+
+    <div class="services-wrap">
+      <svg class="thread-svg" viewBox="0 0 1180 60" preserveAspectRatio="none">
+        <path d="M30 50 C 130 -10, 250 110, 350 30 S 590 -10, 690 30 S 930 110, 1030 30 S 1140 -10, 1150 30"
+              fill="none" stroke="var(--teal)" stroke-width="2" stroke-dasharray="1 12" stroke-linecap="round" opacity="0.55"/>
+      </svg>
+
+      <div class="services-grid">
+        <div class="service-card reveal">
+          <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M6 3v6a4 4 0 0 0 8 0V3M10 21a5 5 0 0 0 5-5v-3"/><circle cx="18" cy="16" r="2.3"/></svg></div>
+          <h3>Sistematski pregledi</h3>
+          <p>Redoviti pregledi rasta, razvoja i općeg zdravlja djeteta prema preporučenom kalendaru.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M18 2l4 4-9 9-5 1 1-5 9-9Z"/><path d="M14 6l4 4M5 18l-2 4 4-2"/></svg></div>
+          <h3>Cijepljenje</h3>
+          <p>Obavezna i preporučena cjepiva uz jasno savjetovanje prije i poslije cijepljenja.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M21 11.5a8.4 8.4 0 0 1-8.9 8.4 8.6 8.6 0 0 1-3.5-.8L3 20l1-4.4A8.4 8.4 0 1 1 21 11.5Z"/></svg></div>
+          <h3>Savjetovanje za roditelje</h3>
+          <p>Pitanja o prehrani, spavanju, odgoju i razvoju — odgovori prilagođeni vašoj obitelji.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 21s-7-4.7-9.4-9.2C1.2 8.6 3 5.5 6.3 5.2c1.9-.2 3.4.8 4 2.1.7-1.3 2.2-2.3 4.1-2.1 3.3.3 5.1 3.4 3.7 6.6C19 16.3 12 21 12 21Z"/><path d="M7 11h2l1.4-2.6L12 13l1.3-2h2.2"/></svg></div>
+          <h3>Hitni pregledi</h3>
+          <p>Brza dostupnost kad djetetu pomoć treba odmah — nazovite ordinaciju izravno.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3.5" y="4.5" width="17" height="16" rx="3"/><path d="M3.5 9.5h17M8 3v3M16 3v3"/><path d="M8.5 14l2 2 4-4"/></svg></div>
+          <h3>Online naručivanje</h3>
+          <p>Jednostavno zakazivanje termina putem forme niže — bez čekanja na liniji.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="pad alt" id="narudzba">
+  <div class="container">
+    <div class="book reveal">
+      <div>
+        <div class="eyebrow">Online naručivanje</div>
+        <h2>Zakažite termin u nekoliko koraka</h2>
+        <p>Ispunite obrazac i pošaljite zahtjev — javljamo se za potvrdu termina. Za hitne slučajeve, molimo nazovite izravno.</p>
+        <a href="tel:+38598633812" class="btn btn-soft" style="margin-top:18px;">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="16" height="16"><path d="M5 4h3l2 5-2.5 1.5a11 11 0 0 0 5 5L14 13l5 2v3a2 2 0 0 1-2 2C9.5 20 4 14.5 4 7a2 2 0 0 1 1-3Z"/></svg>
+          Nazovi 098 633 812
+        </a>
+      </div>
+      <form id="bookingForm">
+        <div>
+          <label for="childName">Ime i prezime djeteta</label>
+          <input type="text" id="childName" name="childName" placeholder="npr. Luka Horvat" required>
+        </div>
+        <div>
+          <label for="parentName">Ime roditelja</label>
+          <input type="text" id="parentName" name="parentName" placeholder="npr. Ivana Horvat" required>
+        </div>
+        <div>
+          <label for="phone">Telefon</label>
+          <input type="tel" id="phone" name="phone" placeholder="09X XXX XXXX" required>
+        </div>
+        <div>
+          <label for="date">Željeni datum</label>
+          <input type="date" id="date" name="date">
+        </div>
+        <div class="full">
+          <label for="reason">Razlog dolaska</label>
+          <select id="reason" name="reason">
+            <option>Sistematski pregled</option>
+            <option>Cijepljenje</option>
+            <option>Savjetovanje</option>
+            <option>Hitni pregled</option>
+            <option>Ostalo</option>
+          </select>
+        </div>
+        <div class="full">
+          <label for="note">Napomena (nije obavezno)</label>
+          <textarea id="note" name="note" placeholder="Recite nam nešto više o razlogu posjeta..."></textarea>
+        </div>
+        <div class="full form-foot">
+          <p class="form-note">Klikom na gumb otvara se e-mail s popunjenim podacima za slanje.</p>
+          <button type="submit" class="btn book-btn">Pošalji zahtjev</button>
+        </div>
+        <div class="full toast" id="formToast">Hvala! Otvoren je vaš e-mail program s popunjenim zahtjevom — samo ga pošaljite. Za hitno, nazovite 098 633 812.</div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<section class="pad" id="kontakt">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="eyebrow">Kontakt i lokacija</div>
+      <h2>Pronađite nas u Daruvaru</h2>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-card reveal">
+        <div class="contact-row">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s-7-5.3-7-11a7 7 0 0 1 14 0c0 5.7-7 11-7 11Z"/><circle cx="12" cy="10" r="2.4"/></svg></div>
+          <div>
+            <h4>Adresa</h4>
+            <p>Ive Vojnovića 14, 43500 Daruvar</p>
+          </div>
+        </div>
+        <div class="contact-row">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 4h3l2 5-2.5 1.5a11 11 0 0 0 5 5L14 13l5 2v3a2 2 0 0 1-2 2C9.5 20 4 14.5 4 7a2 2 0 0 1 1-3Z"/></svg></div>
+          <div>
+            <h4>Telefon</h4>
+            <p><a href="tel:+38598633812">098 633 812</a></p>
+          </div>
+        </div>
+        <div class="contact-row">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.2 1.8"/></svg></div>
+          <div>
+            <h4>Radno vrijeme</h4>
+            <table class="hours-table">
+              <tr><td>Ponedjeljak – Petak</td><td>8:00 – 16:00</td></tr>
+              <tr><td>Subota – Nedjelja</td><td>Zatvoreno</td></tr>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="map-frame reveal">
+        <iframe src="https://www.google.com/maps?q=Ive+Vojnovi%C4%87a+14,+Daruvar&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Karta lokacije ordinacije"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="heart-rule">
+      <span class="l"></span>
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 21s-7-4.7-9.4-9.2C1.2 8.6 3 5.5 6.3 5.2c1.9-.2 3.4.8 4 2.1.7-1.3 2.2-2.3 4.1-2.1 3.3.3 5.1 3.4 3.7 6.6C19 16.3 12 21 12 21Z"/></svg>
+      <span class="l"></span>
+    </div>
+    <div class="footer-row">
+      <div class="footer-brand">
+        <img src="logo.png" alt="Logotip">
+        <span>Ana Knežević-Golubić</span>
+      </div>
+      <p class="footer-note">Ive Vojnovića 14, Daruvar · 098 633 812 · Pon–Pet 8:00–16:00</p>
+      <p class="footer-note">© <span id="year"></span> Privatna pedijatrijska ordinacija. Sva prava pridržana.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js" defer></script>
+</body>
+</html>
